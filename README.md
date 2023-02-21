@@ -5,25 +5,6 @@
 
 ## Hey 👋, I'm Geperson Mamalias!, a Web Developer 👨‍💻 working since 2023 🚀  
   
-
-<a href="https://github.com/kuyagep" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/gepersontech" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.facebook.com/kuyagep" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>
-<a href="https://m.me/kuyagep" target="_blank">
-<img src=https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>
-<a href="https://instagram.com/geepieee" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.youtube.com/user/kuyagep" target="_blank">
-<img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
-</a>  
   
 
 
@@ -55,33 +36,7 @@ I specialize in building PHP application that do website or web app. As a conten
 
 ## My Skill Set  
 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white alt=youtube style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white style="margin-bottom: 5px;" />
-</a> 
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white style="margin-bottom: 5px;" />
-</a> 
+
 
 <table><tr><td valign="top" width="33%">
 
