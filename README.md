@@ -119,7 +119,7 @@ I specialize in building PHP application that do website or web app. As a conten
 </td></tr></table>  
 
 
-<div align="center">
+<div align="center" width="100%">
   <div align="center" width="50%">
 <img src="https://github-readme-stats.vercel.app/api?username=kuyagep&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 50%" />
 </div>  
