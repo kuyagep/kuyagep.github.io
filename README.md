@@ -118,7 +118,15 @@ I specialize in building PHP application that do website or web app. As a conten
 
 ###
 
+## Github Snake 
 
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/kuyagep/kuyagep/blob/output/snake.svg" alt="Snake animation" />
+
+###
 
 <br/> 
 
