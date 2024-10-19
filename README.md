@@ -182,7 +182,12 @@ I specialize in building PHP applications for websites and web apps. As a conten
 <div align="center">
  
   <img src="https://github-readme-stats.vercel.app/api?username=kuyagep&show_icons=true&theme=vue-dark#gh-dark-mode-only&include_all_commits=true&count_private=true&disable_animations=falsek&hide_border=true&locale=en" height="200" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=vue-dark&hide_border=true&username=kuyagep" height="200" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=vue-dark&hide_border=false&username=kuyagep" height="200" alt="languages graph"  />
+</div>
+
+<div>
+ <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 </div>
 
 ## Github Snake <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Roller%20Coaster.png" alt="Roller Coaster" width="25" height="25" />
