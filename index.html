@@ -7,12 +7,16 @@
     <title>Geperson Mamalias | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="assets/profile.jpg">
+    <!-- Font Awesome CDN for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body class="bg-gray-900 text-white font-sans">
 
     <!-- Header -->
     <header class="text-center py-10">
+        <img src="https://placehold.co/32x32/000000/FFF" alt="Geperson Mamalias"
+            class="w-32 h-32 rounded-full mx-auto mb-4">
         <h1 class="text-4xl font-bold">Geperson Mamalias</h1>
         <p class="text-xl text-gray-400">Web Developer | Laravel Enthusiast</p>
         <a href="assets/resume.pdf" download
@@ -33,7 +37,8 @@
         <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Projects</h2>
         <div class="grid md:grid-cols-2 gap-6">
             <div class="bg-gray-800 p-4 rounded-xl shadow">
-                <img src="https://placehold.co/600x400/orange/white" alt="Asset Management System" class="rounded-md mb-3">
+                <img src="https://placehold.co/600x400/orange/white" alt="Asset Management System"
+                    class="rounded-md mb-3">
                 <h3 class="font-bold text-lg">Asset Management System</h3>
                 <p class="text-gray-400">A Laravel-based system to manage digital and physical assets. Built for
                     efficiency and tracking.</p>
@@ -48,8 +53,8 @@
                     GitHub</a>
             </div>
             <div class="bg-gray-800 p-4 rounded-xl shadow">
-                <img src="https://placehold.co/600x400/orange/white"
-                    alt="Procurement Management System Preview" class="rounded-md mb-3">
+                <img src="https://placehold.co/600x400/orange/white" alt="Procurement Management System Preview"
+                    class="rounded-md mb-3">
                 <h3 class="font-bold text-lg">Procurement Management System</h3>
                 <p class="text-gray-400">This is a placeholder for a future project. Update this section with real data
                     when available.</p>
@@ -74,10 +79,16 @@
     <!-- Contact & Social Links -->
     <section class="max-w-3xl mx-auto px-4 py-10">
         <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Contact & Socials</h2>
-        <ul class="space-y-2 text-blue-400">
-            <li><a href="https://facebook.com/kuyagep" class="hover:underline">Facebook</a></li>
-            <li><a href="https://youtube.com/kuyagep" class="hover:underline">YouTube</a></li>
-            <li><a href="https://github.com/kuyagep" class="hover:underline">GitHub</a></li>
+        <ul class="flex space-x-6 justify-center">
+            <li><a href="https://facebook.com/kuyagep" class="text-blue-400 hover:text-blue-600">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a></li>
+            <li><a href="https://youtube.com/kuyagep" class="text-red-400 hover:text-red-600">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a></li>
+            <li><a href="https://github.com/kuyagep" class="text-gray-400 hover:text-gray-600">
+                    <i class="fab fa-github fa-2x"></i>
+                </a></li>
         </ul>
     </section>
 
