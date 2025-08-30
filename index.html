@@ -6,29 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geperson Mamalias | Web Developer Portfolio</title>
     <!-- SEO Meta Tags -->
-    <meta name="description"
-        content="Portfolio of Geperson Mamalias - Laravel Developer & Tech Content Creator.">
+    <meta name="description" content="Portfolio of Geperson Mamalias - Laravel Developer & Tech Content Creator.">
     <meta name="keywords" content="Geperson Mamalias, Portfolio, Web Developer, Laravel, PHP, TailwindCSS, GitHub">
     <meta name="author" content="Geperson Mamalias">
     <link rel="icon" type="image/png" href="assets/profile.jpg">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="kuyagep.github.io">
     <meta property="og:title" content="Geperson Mamalias | Web Developer Portfolio">
-    <meta property="og:description" content="Portfolio of Geperson Mamalias - Laravel Developer & Tech Content Creator.">
+    <meta property="og:description"
+        content="Portfolio of Geperson Mamalias - Laravel Developer & Tech Content Creator.">
     <meta property="og:image" content="https:/kuyagep.github.io/assets/profile.webp">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="kuyagep.github.io">
     <meta name="twitter:title" content="Geperson Mamalias | Web Developer Portfolio">
-    <meta name="twitter:description" content="Portfolio of Geperson Mamalias - Laravel Developer & Tech Content Creator.">
+    <meta name="twitter:description"
+        content="Portfolio of Geperson Mamalias - Laravel Developer & Tech Content Creator.">
     <meta name="twitter:image" content="https:/kuyagep.github.io/assets/profile.webp">
-
+    
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+
     <style>
         html {
             scroll-behavior: smooth;
@@ -45,7 +47,8 @@
 
 </head>
 
-<body class="bg-gray-900 text-white font-sans leading-relaxed">
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white font-sans">
+
     <!-- Navbar -->
     <header class="fixed top-0 left-0 w-full bg-gray-900 shadow z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
@@ -61,6 +64,11 @@
                 <a href="#youtube" class="hover:text-white transition">Youtube</a>
                 <a href="#contact" class="hover:text-white transition">Contact</a>
             </nav>
+            <button id="themeToggle" class="md:ml-4 inline-flex items-center gap-2 rounded-full px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-900
+         dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100 transition">
+                <i id="themeIcon" class="fa-solid fa-moon"></i>
+                <span class="text-sm font-medium">Theme</span>
+            </button>
 
             <!-- Mobile Hamburger -->
             <button id="menu-btn" class="md:hidden text-gray-300 focus:outline-none">
@@ -320,7 +328,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-16 bg-gray-900 text-white">
+    <section id="contact" class="py-16 bg-gray-900 text-white ">
         <div class="max-w-4xl mx-auto px-6">
             <h2 class="text-2xl font-semibold text-center mb-8 dark:text-white">Contact Me</h2>
 
@@ -518,6 +526,7 @@
 
         loadLatestVideo();
     </script>
+
 
 </body>
 
