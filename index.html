@@ -4,96 +4,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geperson Mamalias | Portfolio</title>
+    <title>Geperson Mamalias | Web Developer Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="assets/profile.jpg">
     <!-- Font Awesome CDN for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio of Geperson Mamalias - Web Developer & Laravel Enthusiast. Showcasing projects, skills, and contact information.">
+    <meta name="keywords" content="Geperson Mamalias, Portfolio, Web Developer, Laravel, PHP, TailwindCSS, GitHub">
+    <meta name="author" content="Geperson Mamalias">
 </head>
 
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-gray-900 text-white font-sans leading-relaxed">
 
     <!-- Header -->
-    <header class="text-center py-10">
-        <img src="https://placehold.co/32x32/000000/FFF" alt="Geperson Mamalias"
-            class="w-32 h-32 rounded-full mx-auto mb-4">
-        <h1 class="text-4xl font-bold">Geperson Mamalias</h1>
-        <p class="text-xl text-gray-400">Web Developer | Laravel Enthusiast</p>
+    <header class="text-center py-12">
+        <img src="assets/profile.jpg" alt="Profile picture of Geperson Mamalias"
+            class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+        <h1 class="text-4xl font-extrabold">Geperson Mamalias</h1>
+        <p class="text-lg text-gray-400 mt-1">Web Developer | Laravel Enthusiast</p>
         <a href="assets/resume.pdf" download
-            class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full">Download
-            Resume</a>
+            class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 transition-colors duration-200 text-white font-medium py-2 px-6 rounded-full shadow-md">
+            📄 Download Resume
+        </a>
     </header>
 
     <!-- About -->
-    <section class="max-w-3xl mx-auto px-4 py-10">
+    <section class="max-w-3xl mx-auto px-6 py-12">
         <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">About Me</h2>
-        <p class="text-gray-300">I'm a passionate web developer who enjoys building web applications using Laravel and
-            PHP. I love turning ideas into reality through clean, efficient code. I also create helpful tech content on
-            YouTube to share my knowledge.</p>
+        <p class="text-gray-300">
+            I'm a passionate web developer specializing in building robust web applications using Laravel and PHP.
+            I enjoy turning ideas into reality through clean, efficient, and scalable code. Beyond coding, I create
+            helpful tech content on YouTube to share my knowledge and inspire other developers.
+        </p>
     </section>
 
     <!-- Projects -->
-    <section class="max-w-4xl mx-auto px-4 py-10">
-        <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Projects</h2>
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-gray-800 p-4 rounded-xl shadow">
-                <img src="https://placehold.co/600x400/orange/white" alt="Asset Management System"
-                    class="rounded-md mb-3">
-                <h3 class="font-bold text-lg">Asset Management System</h3>
-                <p class="text-gray-400">A Laravel-based system to manage digital and physical assets. Built for
-                    efficiency and tracking.</p>
-                <a href="https://github.com/kuyagep/assetx" class="text-blue-400 hover:underline">View on GitHub</a>
-            </div>
-            <div class="bg-gray-800 p-4 rounded-xl shadow">
-                <img src="https://placehold.co/600x400/orange/white" alt="Laravel 10 API" class="rounded-md mb-3">
-                <h3 class="font-bold text-lg">Laravel 10 API</h3>
-                <p class="text-gray-400">A sample API project using Laravel 10 with Sanctum authentication and modern
-                    REST standards.</p>
-                <a href="https://github.com/kuyagep/laravel-10-api" class="text-blue-400 hover:underline">View on
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-6">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+    
+            <!-- Asset Management System -->
+            <div class="bg-gray-800 hover:bg-gray-700 transition rounded-xl p-5 shadow-lg">
+                <img src="https://placehold.co/600x400/orange/white" alt="Asset Management System Preview"
+                    class="rounded-md mb-4">
+                <h3 class="font-bold text-xl mb-2">Asset Management System</h3>
+                <p class="text-gray-400 mb-3">A Laravel-based system to manage digital and physical assets with efficiency
+                    and
+                    tracking features.</p>
+                <a href="https://github.com/kuyagep/assetx" target="_blank" class="text-blue-400 hover:underline">🔗 View on
                     GitHub</a>
             </div>
-            <div class="bg-gray-800 p-4 rounded-xl shadow">
-                <img src="https://placehold.co/600x400/orange/white" alt="Procurement Management System Preview"
-                    class="rounded-md mb-3">
-                <h3 class="font-bold text-lg">Procurement Management System</h3>
-                <p class="text-gray-400">This is a placeholder for a future project. Update this section with real data
-                    when available.</p>
-                <a href="#" class="text-blue-400 hover:underline">Coming Soon</a>
+    
+            <!-- Laravel 10 API -->
+            <div class="bg-gray-800 hover:bg-gray-700 transition rounded-xl p-5 shadow-lg">
+                <img src="https://placehold.co/600x400/orange/white" alt="Laravel 10 API Preview" class="rounded-md mb-4">
+                <h3 class="font-bold text-xl mb-2">Laravel 10 API</h3>
+                <p class="text-gray-400 mb-3">A modern REST API project built with Laravel 10 and Sanctum authentication.
+                </p>
+                <a href="https://github.com/kuyagep/laravel-10-api" target="_blank" class="text-blue-400 hover:underline">🔗
+                    View on GitHub</a>
             </div>
+    
+            <!-- OKD Portal -->
+            <div class="bg-gray-800 hover:bg-gray-700 transition rounded-xl p-5 shadow-lg">
+                <img src="https://placehold.co/600x400/007bff/white" alt="OKD Portal Preview" class="rounded-md mb-4">
+                <h3 class="font-bold text-xl mb-2">OKD Portal</h3>
+                <p class="text-gray-400 mb-3">A web-based platform for managing health-related activities, reports, and
+                    resources
+                    for the Division of Davao del Sur.</p>
+                <a href="https://okddavsur.com/" target="_blank" class="text-blue-400 hover:underline">🌐 Visit Website</a>
+            </div>
+    
+            <!-- RMS-DAVSUR -->
+            <div class="bg-gray-800 hover:bg-gray-700 transition rounded-xl p-5 shadow-lg">
+                <img src="https://placehold.co/600x400/28a745/white" alt="RMS-DAVSUR Preview" class="rounded-md mb-4">
+                <h3 class="font-bold text-xl mb-2">RMS-DAVSUR</h3>
+                <p class="text-gray-400 mb-3">Division Records Management System for tracking and managing official
+                    issuances and
+                    documents at the Division of Davao del Sur.</p>
+                <a href="https://rms-davsur.com/" target="_blank" class="text-blue-400 hover:underline">🌐 Visit Website</a>
+            </div>
+    
+            <!-- Notify-Pay -->
+            <div class="bg-gray-800 hover:bg-gray-700 transition rounded-xl p-5 shadow-lg">
+                <img src="https://placehold.co/600x400/f39c12/white" alt="Notify-Pay Preview" class="rounded-md mb-4">
+                <h3 class="font-bold text-xl mb-2">Notify-Pay</h3>
+                <p class="text-gray-400 mb-3">A smart disbursement and notification system with bulk upload features,
+                    validation,
+                    and reporting tools.</p>
+                <a href="#" target="_blank" class="text-blue-400 hover:underline">🚧 Coming Soon</a>
+            </div>
+    
+            <!-- Procurement Management System -->
+            <div class="bg-gray-800 hover:bg-gray-700 transition rounded-xl p-5 shadow-lg">
+                <img src="https://placehold.co/600x400/orange/white" alt="Procurement Management System Preview"
+                    class="rounded-md mb-4">
+                <h3 class="font-bold text-xl mb-2">Procurement Management System</h3>
+                <p class="text-gray-400 mb-3">An upcoming Laravel-based system for procurement workflows and purchase
+                    tracking.
+                </p>
+                <span class="text-gray-500 italic">🚧 Coming Soon</span>
+            </div>
+    
         </div>
     </section>
 
+
     <!-- Skills -->
-    <section class="max-w-3xl mx-auto px-4 py-10">
+    <section class="max-w-3xl mx-auto px-6 py-12">
         <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Skills</h2>
-        <ul class="flex flex-wrap gap-4 text-sm text-gray-300">
-            <li class="bg-gray-800 px-4 py-2 rounded-full">PHP</li>
-            <li class="bg-gray-800 px-4 py-2 rounded-full">Laravel</li>
-            <li class="bg-gray-800 px-4 py-2 rounded-full">TailwindCSS</li>
-            <li class="bg-gray-800 px-4 py-2 rounded-full">HTML/CSS</li>
-            <li class="bg-gray-800 px-4 py-2 rounded-full">JavaScript</li>
-            <li class="bg-gray-800 px-4 py-2 rounded-full">Video Editing</li>
+        <ul class="flex flex-wrap gap-3 text-sm text-gray-300">
+            <li class="bg-gray-800 px-4 py-2 rounded-full shadow">PHP</li>
+            <li class="bg-gray-800 px-4 py-2 rounded-full shadow">Laravel</li>
+            <li class="bg-gray-800 px-4 py-2 rounded-full shadow">TailwindCSS</li>
+            <li class="bg-gray-800 px-4 py-2 rounded-full shadow">HTML & CSS</li>
+            <li class="bg-gray-800 px-4 py-2 rounded-full shadow">JavaScript</li>
+            <li class="bg-gray-800 px-4 py-2 rounded-full shadow">Video Editing</li>
         </ul>
     </section>
 
     <!-- Contact & Social Links -->
-    <section class="max-w-3xl mx-auto px-4 py-10">
-        <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Contact & Socials</h2>
-        <ul class="flex space-x-6 justify-center">
-            <li><a href="https://facebook.com/kuyagep" class="text-blue-400 hover:text-blue-600">
+    <section class="max-w-3xl mx-auto px-6 py-12 text-center">
+        <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-6">Contact & Socials</h2>
+        <p class="text-gray-300 mb-4">Let’s connect! You can reach me through my socials below:</p>
+        <ul class="flex justify-center space-x-8">
+            <li>
+                <a href="https://facebook.com/kuyagep" target="_blank" aria-label="Facebook"
+                    class="text-blue-400 hover:text-blue-600 transition">
                     <i class="fab fa-facebook-square fa-2x"></i>
-                </a></li>
-            <li><a href="https://youtube.com/kuyagep" class="text-red-400 hover:text-red-600">
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com/kuyagep" target="_blank" aria-label="YouTube"
+                    class="text-red-400 hover:text-red-600 transition">
                     <i class="fab fa-youtube fa-2x"></i>
-                </a></li>
-            <li><a href="https://github.com/kuyagep" class="text-gray-400 hover:text-gray-600">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/kuyagep" target="_blank" aria-label="GitHub"
+                    class="text-gray-400 hover:text-gray-600 transition">
                     <i class="fab fa-github fa-2x"></i>
-                </a></li>
+                </a>
+            </li>
         </ul>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-gray-500 text-sm">
+    <footer class="text-center py-6 text-gray-500 text-sm border-t border-gray-800">
         &copy; 2025 Geperson Mamalias. All rights reserved.
     </footer>
 
